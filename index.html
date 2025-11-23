@@ -218,7 +218,7 @@
     function saveUsers(u){localStorage.setItem('students',JSON.stringify(u))}
 
     // Seed demo user
-    (function seed(){const u=loadUsers();if(!u.find(x=>x.email==='mehakjatoi4@gmail.com')){u.push({email:'mehakjatoi4@gmail.com',password:'password123',name:' Student',id:'2K24/PA/17',course:'Public Administration'});saveUsers(u)}})();
+    (function seed(){const u=loadUsers();if(!u.find(x=>x.email==='mehakjatoi4@gmail.com')){u.push({email:'mehakjatoi4@gmail.com',password:'password123',name:' Amber Mehak',id:'2K24/PA/17',course:'Public Administration'});saveUsers(u)}})();
 
     // Show register or login
     function setMode(m){
